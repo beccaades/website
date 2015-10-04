@@ -10,4 +10,12 @@ $(function(){
   $("#development").click(function(){
     $("#response").load("/development.html");
   });
+
+  $(".hide").hide();
+  $(".workTitle").click(function(){
+    $("#imgOne").removeClass("active").addClass("hide");
+    $(".hide").hide();
+    $("#imgTwo").removeClass("hide").addClass("active");  
+    $(".active").show();
+  });
 });

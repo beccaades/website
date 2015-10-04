@@ -1,5 +1,10 @@
+* {
+  box-szing: border-box;
+}
+
 nav {
-  margin-top: 30px;
+  margin-top: 49px;
+  margin-left: 70px;
   position: absolute;
     ul li {
       font-family: 'Arimo', sans-serif;
@@ -52,4 +57,7 @@ nav {
   margin-top: 30px;
 }
 
+#imgThree {
+  border: 1px solid black;
+}
 
