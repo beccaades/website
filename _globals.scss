@@ -1,0 +1,44 @@
+nav {
+  margin-top: 30px;
+  position: absolute;
+    ul li {
+      font-family: 'Arimo', sans-serif;
+      list-style: none;
+      line-height: 2;
+      font-weight: 400;
+      color: #666;
+      font-size: 0.9em;
+      .name {
+        font-size: 1.2em;
+      }
+      a { 
+        color: #666;
+        text-decoration: none;
+        &:hover {
+          background-color: pink;
+        }
+      }
+    }    
+}
+
+.top {
+  margin: 20px 100px 0px 253px;
+  background-color: black;
+  color: white;
+  font-family: "Open Sans";
+  font-size: 1.7em;
+  padding: 10px 0 10px 15px;
+  border-radius: 15px;
+}
+
+.aqua {
+  color: aqua;
+  a {
+    color: aqua;
+    text-decoration: none; 
+  }
+}
+
+
+
+
