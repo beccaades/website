@@ -34,10 +34,21 @@ nav {
     text-decoration: none; }
 
 p {
+  font-family: 'Arimo', sans-serif;
   display: block;
   -webkit-margin-before: 0px;
   -webkit-margin-after: 0px;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px; }
+
+.workTitle {
+  font: 1.5em 'Open Sans', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  letter-spacing: .125em; }
+
+.active {
+  margin-left: 353px;
+  margin-top: 30px; }
 
 /*# sourceMappingURL=main.css.map */
